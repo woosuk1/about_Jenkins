@@ -7,6 +7,10 @@ plugins {
 group = 'com.ohgiraffers'
 version = '0.0.1-SNAPSHOT'
 
+bootJar {
+    mainClassName = 'com/ohgiraffers/bootproject/Chap0101BootProjectApplication'  // 실제 메인 클래스 이름으로 교체
+}
+
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
